@@ -1,0 +1,144 @@
+*{box-sizing: border-box;}
+.wrap-block img{
+  transform: translateX(-10%);
+}
+.icon{
+color: white;
+font-size: 15px;
+margin-left: 80px;
+
+font-family: 'Montserrat Alternates', sans-serif;
+display: inline-block;
+min-width: 300px;
+margin-top: -10px;
+}
+.icon img{transform: translate(-125px,25px);
+  display: inline-block; 
+}
+.soc{
+  margin-top: 10px;
+  margin-left: 70px;
+  min-width: 250px;
+  }
+.telf{
+margin-top: 25px;
+color:white;
+margin-right: 50px;
+min-width: 220px;
+max-width: max-content;
+display: inline-block;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+.telf img{
+  display:inline-block;
+  transform: translateY(-10%);
+}
+.telf h4{
+  margin-right: 60px;
+display: inline-block;}
+  .inst_fs{
+display: inline block;
+margin-left: 170px;
+transform: translateY(-110%);
+}
+.inst_fs img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.section1{
+  margin-top: 30px;
+}
+.section1 img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .fotorama{
+    text-align: center;
+  }
+
+
+  .slider{
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  }
+    .form {
+     border: 1px solid #178268;
+     padding: 20px;
+     font-size: 20px; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    width: 370px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    }
+     .form input {
+       width: 300px;
+       display: block;
+        padding: 20px;
+       font-size: 18px;
+       margin-top: 15px;
+       border-radius: 10px;
+       margin-left:auto;
+    margin-right:auto;
+    border:none;
+    box-shadow: blue;
+    outline: none;
+     }
+     .formhead{
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: table-cell;
+    top:50%;
+    border-color: red;
+    align-items: center;
+}
+form button:hover{
+  background-color: #189274;
+  
+}
+.form button {
+font-size: 18 px;
+font-weight: 550;
+background-color:#51bba1;
+color:white;
+border: none;
+width: 300px;
+height: 60px;
+margin-top: 15px;
+border-radius: 10px;
+font-family: 'Montserrat Alternates', sans-serif;
+  
+}
+.selection{min-height: 100vh; 
+text-align: center;
+width: 100%;
+border: 1px solid #178268;
+}
+.card{text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media(max-width:990px){
+    .icon img{
+      transform: translate(-180px,25px);
+      
+  }
+  .wrap-block{text-align: center;
+    transform: translateX(6%);}
+    
+
+
+
+}
+
+  
