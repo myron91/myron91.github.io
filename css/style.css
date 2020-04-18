@@ -107,7 +107,7 @@ font-size: 1.2rem;
 display: inline-block;
 width: 80%;}
 .features{
-background: url(../img/2201.jpg) center no-repeat ;
+background: url(../img/4646.jpg) right no-repeat ;
 }
 .texteria-main-form-input{
 max-width: 200px ;
@@ -167,9 +167,9 @@ font-size: 15px;
 background-color: #178268;
 color: white;
 border: none;
-width: 210px;
+width: 200px;
 height: 50px;
-margin-top: 45px;
+margin-top: 35px;
 border-radius: 6px;
 font-family: 'Montserrat Alternates', sans-serif;
 outline: none;
@@ -263,22 +263,23 @@ text-align: center;
 font-family: 'Montserrat Alternates', sans-serif;
 }
 .prices{
-background: url(../img/2200.jpg) center no-repeat;
+background: url(../img/4646.jpg) right no-repeat;
                 
 }
 .price-block{
-background-color: rgb(182, 240, 231);
+background-color: white;
 box-shadow: cornflowerblue;
 text-align: center;
-padding: 2rem 3.5rem;
+padding: 2rem 2rem;
 min-height: 45rem;
-margin-bottom: 25px;
+margin-bottom: 30px;
 max-width: 35rem;
 margin-right:auto;
 margin-left: auto;
 font-family: 'Montserrat Alternates', sans-serif;
 border-radius: 9px;
 border: green 1px solid;
+color: black;
 }
 .price-block h4{
 font-size: 22px;
@@ -295,6 +296,7 @@ margin-bottom: 1rem;
 .price-list{
 min-height: 17rem;
 font-weight: 600;
+color: black;
 }
 .price-block img{
 display: inline-block;
@@ -323,11 +325,11 @@ margin-left: auto;
 margin-right: auto;
 font-family: 'Montserrat Alternates', sans-serif;}
 .feedback{
-background: url(../img/2201.jpg) center no-repeat ;
+background: url(../img/4545.jpg) left no-repeat ;
 
 }
 .feedback-slider_item{
-background-color: rgb(182, 240, 231);;
+background-color: white;
 box-shadow:  inset rgba(0,0,0,.6) 0 -3px 8px,
 inset rgba(252,255,255,.7) 0 3px 8px,
 rgba(0,0,0,.8) 0 6px 0px -2px;
@@ -372,11 +374,8 @@ margin-top: 10px;}
                                                                /*last form*/
 
 .last-form{
-  background: url(../img/2200.jpg) no-repeat center; 
+  background: url(../img/8-3.jpg) no-repeat right; 
 }
-
-
-
  .feedback-form{
 text-align: center;
 font-family: 'Montserrat Alternates', sans-serif;
@@ -399,25 +398,25 @@ margin-right: auto;
 width: 260px; 
 font-size: 20px; 
 font-weight: 500;      
-} 
+};
 .feedback-form-btn{ 
-border-radius: 6px; 
-width: 260px; 
-height: 60px; 
-background-color: #178268; 
-margin-bottom: 100px; 
-margin-top: 50px; 
-text-align: center; 
-margin-left: auto; 
-margin-right: auto; 
-border: unset; 
-outline: none;
-font-size: 16px;
-font-weight: 700;
-color:white;
-}
+  border-radius: 6px; 
+  width: 260px; 
+  height: 60px; 
+  background-color: #178268; 
+  margin-bottom: 100px; 
+  margin-top: 50px; 
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border: unset; 
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  color:white;
+  }    
 .feedback-form-btn:hover{
-background-color:  #084d3b;; 
+background-color:  #084d3b; 
 }
 .form{
 margin-top: 35px;
@@ -455,9 +454,11 @@ transform: translate(-45px,25px);
 .wrap-block{text-align: center;
 }
 .inst_fs{margin-right: 110px;}
-.adress{margin-right: 85px;
+.adress{margin-right: 85px;}
 }
-}
+
+
+
 
   
     
