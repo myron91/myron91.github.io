@@ -1,3 +1,35 @@
+
+// $(document).ready(function(){
+//   $('#changecolor').click(function(){
+//   $('.feedback-form-btn').css({'background-color':'blue'})
+// });
+
+
+
+$('#lastform2').on('focus',function(){
+  $(this).toggleClass('focus');
+  });
+
+$('#lastform1').on('focus',function(){
+$('#lastform1').toggleClass('focus');
+});
+
+$('.form-input').on('blur',function(){
+  $(this).removeClass('focus');
+});
+
+$('#changecolor').on('click',function(){
+  $('#feedback-form-btn').toggleClass('secondClass');
+  });
+
+
+
+
+
+
+
+
+
 $('.popup-btn').on('click', function(event){
   event.preventDefault();
   $('.popup').fadeIn();
@@ -67,3 +99,11 @@ $('.features-slider').slick({
         // instead of a settings object
       ]
   });
+
+
+
+
+
+
+
+// });

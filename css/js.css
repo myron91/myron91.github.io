@@ -1,0 +1,37 @@
+.focus{
+    border: 1px solid #1565C0;
+    box-shadow: 0px 1px 25px #64B5F6;
+    outline: none;}
+    .feedback-form-btn{ 
+        border-radius: 6px; 
+        width: 260px; 
+        height: 60px; 
+        background-color: #178268; 
+        margin-bottom: 100px; 
+        margin-top: 50px; 
+        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto; 
+        border: unset; 
+        outline: none;
+        font-size: 16px;
+        font-weight: 700;
+        color:white;
+        }    
+  .secondClass{ 
+    background-color: rebeccapurple;
+    border-radius: 6px; 
+  width: 360px; 
+  height: 100px; 
+  margin-bottom: 100px; 
+  margin-top: 50px; 
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border: unset; 
+  outline: none;
+  font-size: 20px;
+  font-weight: 900;
+  color:white;
+  }
+  
