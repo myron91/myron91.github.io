@@ -10,7 +10,7 @@ $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp1.mail.ru';  // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'myron91@mail.ru';                            // SMTP username
-$mail->Password = '*****M***';                           // SMTP password
+$mail->Password = '3***H';                           // SMTP password
 $mail->SMTPSecure = 'ssl';  
 $mail->Port = 465;                          // Enable encryption, 'ssl' also accepted
 
